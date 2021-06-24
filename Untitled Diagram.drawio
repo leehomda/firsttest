@@ -1,5 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2021-06-24T01:05:45.741Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54" etag="PAYQBVt9-x6zMEsJpC_6" version="14.8.0" type="github">
-  <diagram id="TFeQa-o05EtFf28nvirn" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2021-06-24T01:51:10.369Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54" etag="WxkAwsuP5UEuWctCIWUO" version="14.8.0" type="github" pages="2">
+  <diagram id="YGMs5_OGyGjqF1UgZ5e0" name="1">
+    <mxGraphModel dx="920" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="g_Vxe10vKCHtwdsR93IL-0" />
+        <mxCell id="g_Vxe10vKCHtwdsR93IL-1" parent="g_Vxe10vKCHtwdsR93IL-0" />
+        <mxCell id="nog20Q48Hw6gm3RKK76R-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="g_Vxe10vKCHtwdsR93IL-1" source="o-Dk5TINFGKiQmSV7drY-0" target="o-Dk5TINFGKiQmSV7drY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o-Dk5TINFGKiQmSV7drY-0" value="界面验证手机号正确" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="g_Vxe10vKCHtwdsR93IL-1">
+          <mxGeometry x="120" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Xv1EckBsu3KsbvPLen4-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="g_Vxe10vKCHtwdsR93IL-1" source="o-Dk5TINFGKiQmSV7drY-1" target="nog20Q48Hw6gm3RKK76R-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o-Dk5TINFGKiQmSV7drY-1" value="显示图形验证码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="g_Vxe10vKCHtwdsR93IL-1">
+          <mxGeometry x="120" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Xv1EckBsu3KsbvPLen4-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="g_Vxe10vKCHtwdsR93IL-1" source="nog20Q48Hw6gm3RKK76R-0" target="3Xv1EckBsu3KsbvPLen4-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3Xv1EckBsu3KsbvPLen4-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="g_Vxe10vKCHtwdsR93IL-1" source="nog20Q48Hw6gm3RKK76R-0" target="3Xv1EckBsu3KsbvPLen4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nog20Q48Hw6gm3RKK76R-0" value="图形验证码&lt;br&gt;验证成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="g_Vxe10vKCHtwdsR93IL-1">
+          <mxGeometry x="125" y="270" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Xv1EckBsu3KsbvPLen4-1" value="调用sms发送至手机&lt;br&gt;保存redis&lt;br&gt;（返回成功，界面60秒倒计时无法重发）&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="g_Vxe10vKCHtwdsR93IL-1">
+          <mxGeometry x="305" y="390" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Xv1EckBsu3KsbvPLen4-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="g_Vxe10vKCHtwdsR93IL-1" source="3Xv1EckBsu3KsbvPLen4-5" target="3Xv1EckBsu3KsbvPLen4-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3Xv1EckBsu3KsbvPLen4-5" value="&lt;span&gt;清空手机号验证失败次数&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="g_Vxe10vKCHtwdsR93IL-1">
+          <mxGeometry x="320" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Xv1EckBsu3KsbvPLen4-8" value="验证失败次数+1&lt;br&gt;为0则redis新建&lt;br&gt;（超时60s）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="g_Vxe10vKCHtwdsR93IL-1">
+          <mxGeometry x="120" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Xv1EckBsu3KsbvPLen4-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="g_Vxe10vKCHtwdsR93IL-1" source="3Xv1EckBsu3KsbvPLen4-9" target="3Xv1EckBsu3KsbvPLen4-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3Xv1EckBsu3KsbvPLen4-9" value="获取验证失败次数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="g_Vxe10vKCHtwdsR93IL-1">
+          <mxGeometry x="120" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Xv1EckBsu3KsbvPLen4-10" value="验证失败次数&amp;gt;=5" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="g_Vxe10vKCHtwdsR93IL-1">
+          <mxGeometry x="140" y="585" width="80" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="3Xv1EckBsu3KsbvPLen4-12" value="返回验证错误超次数信息，提示锁定" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="g_Vxe10vKCHtwdsR93IL-1">
+          <mxGeometry x="120" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="TFeQa-o05EtFf28nvirn" name="2">
     <mxGraphModel dx="1303" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
