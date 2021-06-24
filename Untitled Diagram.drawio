@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-24T01:59:32.550Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54" etag="CzxFvF0IBCV8yfqLPow1" version="14.8.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-24T02:04:17.229Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54" etag="BGJcCBn8e8ZhKLWwQCyn" version="14.8.0" type="github" pages="2">
   <diagram id="YGMs5_OGyGjqF1UgZ5e0" name="1">
-    <mxGraphModel dx="920" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1303" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="g_Vxe10vKCHtwdsR93IL-0" />
         <mxCell id="g_Vxe10vKCHtwdsR93IL-1" parent="g_Vxe10vKCHtwdsR93IL-0" />
@@ -37,8 +37,8 @@
         <mxCell id="3Xv1EckBsu3KsbvPLen4-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="g_Vxe10vKCHtwdsR93IL-1" source="3Xv1EckBsu3KsbvPLen4-8" target="3Xv1EckBsu3KsbvPLen4-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3Xv1EckBsu3KsbvPLen4-8" value="验证失败次数+1&lt;br&gt;为0则redis新建&lt;br&gt;（超时60s）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="g_Vxe10vKCHtwdsR93IL-1">
-          <mxGeometry x="105" y="490" width="120" height="60" as="geometry" />
+        <mxCell id="3Xv1EckBsu3KsbvPLen4-8" value="验证失败次数+1&lt;br&gt;redis中不存在则先新建&lt;br&gt;（超时60s）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="g_Vxe10vKCHtwdsR93IL-1">
+          <mxGeometry x="102" y="494" width="125" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3Xv1EckBsu3KsbvPLen4-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="g_Vxe10vKCHtwdsR93IL-1" source="3Xv1EckBsu3KsbvPLen4-9" target="3Xv1EckBsu3KsbvPLen4-8">
           <mxGeometry relative="1" as="geometry" />
@@ -100,7 +100,7 @@
         <mxCell id="uRTgoNl88JnnkZ1CWOH0-20" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="g_Vxe10vKCHtwdsR93IL-1" source="uRTgoNl88JnnkZ1CWOH0-5" target="uRTgoNl88JnnkZ1CWOH0-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uRTgoNl88JnnkZ1CWOH0-5" value="errCount&amp;gt;=[5]" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="g_Vxe10vKCHtwdsR93IL-1">
+        <mxCell id="uRTgoNl88JnnkZ1CWOH0-5" value="errCount不为空且&amp;gt;=[5]" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="g_Vxe10vKCHtwdsR93IL-1">
           <mxGeometry x="707" y="367" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uRTgoNl88JnnkZ1CWOH0-6" value="返回错误&lt;br&gt;提示错误超次数，sms失效，清除redis中sms和errCount" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="g_Vxe10vKCHtwdsR93IL-1">
@@ -110,12 +110,12 @@
           <mxGeometry x="526" y="487" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uRTgoNl88JnnkZ1CWOH0-8" value="返回错误&lt;br&gt;次数与可错误次数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="g_Vxe10vKCHtwdsR93IL-1">
-          <mxGeometry x="525" y="595" width="120" height="60" as="geometry" />
+          <mxGeometry x="524.75" y="710" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uRTgoNl88JnnkZ1CWOH0-17" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="g_Vxe10vKCHtwdsR93IL-1" source="uRTgoNl88JnnkZ1CWOH0-9" target="uRTgoNl88JnnkZ1CWOH0-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uRTgoNl88JnnkZ1CWOH0-18" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="g_Vxe10vKCHtwdsR93IL-1" source="uRTgoNl88JnnkZ1CWOH0-9" target="uRTgoNl88JnnkZ1CWOH0-8">
+        <mxCell id="uRTgoNl88JnnkZ1CWOH0-23" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="g_Vxe10vKCHtwdsR93IL-1" source="uRTgoNl88JnnkZ1CWOH0-9" target="uRTgoNl88JnnkZ1CWOH0-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uRTgoNl88JnnkZ1CWOH0-9" value="比较是否正确" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="g_Vxe10vKCHtwdsR93IL-1">
@@ -134,6 +134,12 @@
         </mxCell>
         <mxCell id="uRTgoNl88JnnkZ1CWOH0-21" value="清空已记录到redis的sms" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="g_Vxe10vKCHtwdsR93IL-1">
           <mxGeometry x="105" y="750" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uRTgoNl88JnnkZ1CWOH0-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="g_Vxe10vKCHtwdsR93IL-1" source="uRTgoNl88JnnkZ1CWOH0-22" target="uRTgoNl88JnnkZ1CWOH0-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uRTgoNl88JnnkZ1CWOH0-22" value="&lt;span&gt;errCount&lt;/span&gt;+1&lt;br&gt;&lt;span&gt;redis中不存在则先新建&lt;/span&gt;&lt;br&gt;&lt;span&gt;（超时60s）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="g_Vxe10vKCHtwdsR93IL-1">
+          <mxGeometry x="522" y="595" width="125" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
