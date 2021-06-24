@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-24T09:09:46.587Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54" etag="sGRm8oJm8SuSJBjdM1zW" version="14.8.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-24T09:11:08.250Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54" etag="_1WB2kvTYCOvABnALt_2" version="14.8.0" type="github" pages="4">
   <diagram id="YGMs5_OGyGjqF1UgZ5e0" name="1">
     <mxGraphModel dx="2920" dy="2506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -446,7 +446,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Copy of Copy of 1" id="LGBWkiNRGmc8TNdxKPHA">
-    <mxGraphModel dx="920" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="lIhQqo_QO6p77klz7L---0" />
         <mxCell id="lIhQqo_QO6p77klz7L---1" parent="lIhQqo_QO6p77klz7L---0" />
@@ -551,8 +551,8 @@
         <mxCell id="lIhQqo_QO6p77klz7L---31" value="清空已记录到redis的sms？" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
           <mxGeometry x="120" y="911" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lIhQqo_QO6p77klz7L---33" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---34" target="lIhQqo_QO6p77klz7L---40">
-          <mxGeometry x="0.2129" y="19" relative="1" as="geometry">
+        <mxCell id="lIhQqo_QO6p77klz7L---33" value="yes&lt;br&gt;errCount+1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---34" target="lIhQqo_QO6p77klz7L---40">
+          <mxGeometry x="0.2122" y="-31" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
