@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-24T03:24:55.596Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54" etag="Rg5rkyyzytYuqKc2qLes" version="14.8.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-06-24T08:54:31.929Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54" etag="jWXrlzsUYQR6nKSI4A6Z" version="14.8.0" type="github" pages="4">
   <diagram id="YGMs5_OGyGjqF1UgZ5e0" name="1">
     <mxGraphModel dx="2920" dy="2506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -215,7 +215,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Copy of 1" id="9e5-VBq5Ngjw15lrXHAd">
-    <mxGraphModel dx="1460" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1202" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="375dK3zqJn5S3usAJiBb-0" />
         <mxCell id="375dK3zqJn5S3usAJiBb-1" parent="375dK3zqJn5S3usAJiBb-0" />
@@ -240,14 +240,14 @@
         <mxCell id="375dK3zqJn5S3usAJiBb-8" value="图形验证码&lt;br&gt;验证成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="375dK3zqJn5S3usAJiBb-1">
           <mxGeometry x="110" y="270" width="110" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="375dK3zqJn5S3usAJiBb-9" value="调用sms发送至手机&lt;br&gt;保存redis&lt;br&gt;（返回成功，界面60秒倒计时无法重发）&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="375dK3zqJn5S3usAJiBb-1">
-          <mxGeometry x="290" y="390" width="150" height="60" as="geometry" />
+        <mxCell id="375dK3zqJn5S3usAJiBb-9" value="调用sms发送至手机&lt;br&gt;保存redis&lt;br&gt;（若成功，界面60秒倒计时无法重发）&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="375dK3zqJn5S3usAJiBb-1">
+          <mxGeometry x="250" y="390" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="375dK3zqJn5S3usAJiBb-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="375dK3zqJn5S3usAJiBb-1" source="375dK3zqJn5S3usAJiBb-11" target="375dK3zqJn5S3usAJiBb-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="375dK3zqJn5S3usAJiBb-11" value="&lt;span&gt;清空手机号验证失败次数&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="375dK3zqJn5S3usAJiBb-1">
-          <mxGeometry x="305" y="280" width="120" height="60" as="geometry" />
+          <mxGeometry x="265" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="375dK3zqJn5S3usAJiBb-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="375dK3zqJn5S3usAJiBb-1" source="375dK3zqJn5S3usAJiBb-13" target="375dK3zqJn5S3usAJiBb-17">
           <mxGeometry relative="1" as="geometry" />
@@ -300,7 +300,7 @@
         <mxCell id="375dK3zqJn5S3usAJiBb-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="375dK3zqJn5S3usAJiBb-1" source="375dK3zqJn5S3usAJiBb-27" target="375dK3zqJn5S3usAJiBb-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="375dK3zqJn5S3usAJiBb-27" value="redis获取&lt;br&gt;登录错误次数errCount，不存在则新建并超时60s" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="375dK3zqJn5S3usAJiBb-1">
+        <mxCell id="375dK3zqJn5S3usAJiBb-27" value="redis获取&lt;br&gt;登录错误次数errCount，不存在则新建（超时60s）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="375dK3zqJn5S3usAJiBb-1">
           <mxGeometry x="880" y="189" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="375dK3zqJn5S3usAJiBb-30" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="375dK3zqJn5S3usAJiBb-1" source="375dK3zqJn5S3usAJiBb-32" target="375dK3zqJn5S3usAJiBb-22">
@@ -426,6 +426,267 @@
         </mxCell>
         <mxCell id="375dK3zqJn5S3usAJiBb-102" value="&lt;span&gt;清空sms，提示重发&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="375dK3zqJn5S3usAJiBb-1">
           <mxGeometry x="1418" y="674" width="126" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="375dK3zqJn5S3usAJiBb-103" value="短信验证码发送接口" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="375dK3zqJn5S3usAJiBb-1">
+          <mxGeometry x="520" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="375dK3zqJn5S3usAJiBb-104" value="&lt;span&gt;redis获取&lt;/span&gt;&lt;br&gt;&lt;span&gt;发送次数sendCount，不存在则新建(超时60s)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="375dK3zqJn5S3usAJiBb-1">
+          <mxGeometry x="520" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="375dK3zqJn5S3usAJiBb-106" value="sendCount&amp;gt;=[10]" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="375dK3zqJn5S3usAJiBb-1">
+          <mxGeometry x="533.5" y="249" width="93" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="375dK3zqJn5S3usAJiBb-107" value="返回发送锁定中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="375dK3zqJn5S3usAJiBb-1">
+          <mxGeometry x="690" y="259" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="375dK3zqJn5S3usAJiBb-109" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="375dK3zqJn5S3usAJiBb-1">
+          <mxGeometry x="540" y="380" width="80" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Copy of Copy of 1" id="LGBWkiNRGmc8TNdxKPHA">
+    <mxGraphModel dx="1022" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="lIhQqo_QO6p77klz7L---0" />
+        <mxCell id="lIhQqo_QO6p77klz7L---1" parent="lIhQqo_QO6p77klz7L---0" />
+        <mxCell id="lIhQqo_QO6p77klz7L---2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---3" target="lIhQqo_QO6p77klz7L---5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---3" value="界面验证手机号正确" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+          <mxGeometry x="120" y="201" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---5" target="lIhQqo_QO6p77klz7L---8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---5" value="显示图形验证码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+          <mxGeometry x="120" y="331" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---6" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---8" target="lIhQqo_QO6p77klz7L---15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---7" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---8" target="lIhQqo_QO6p77klz7L---11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---8" value="图形验证码&lt;br&gt;验证成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+          <mxGeometry x="125" y="431" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---9" value="调用sms发送至手机&lt;br&gt;保存redis&lt;br&gt;（若成功，界面60秒倒计时无法重发）&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+          <mxGeometry x="265" y="551" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---11" target="lIhQqo_QO6p77klz7L---9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---11" value="&lt;span&gt;清空手机号验证失败次数&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+          <mxGeometry x="280" y="441" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---13" target="lIhQqo_QO6p77klz7L---17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---13" value="验证失败次数+1&lt;br&gt;redis中不存在则先新建&lt;br&gt;（超时60s）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+          <mxGeometry x="117" y="655" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---15" target="lIhQqo_QO6p77klz7L---13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---15" value="获取验证失败次数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+          <mxGeometry x="120" y="551" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---16" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---17" target="lIhQqo_QO6p77klz7L---18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---17" value="验证失败次数&amp;gt;=[5]" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+          <mxGeometry x="140" y="746" width="80" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---18" value="返回验证错误超次数信息，提示锁定&lt;br&gt;60s无法验证图形" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+          <mxGeometry x="120" y="851" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---19" value="no" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---17" target="lIhQqo_QO6p77klz7L---5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="671" as="sourcePoint" />
+            <mxPoint x="100" y="621" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="779" />
+              <mxPoint x="60" y="361" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---21" target="lIhQqo_QO6p77klz7L---26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---21" value="输入短信验证码" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+          <mxGeometry x="890" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---22" value="验证完成&lt;br&gt;清空sms码和errCount" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+          <mxGeometry x="890" y="805" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---23" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---34" target="lIhQqo_QO6p77klz7L---30">
+          <mxGeometry x="0.4468" y="-20" relative="1" as="geometry">
+            <mxPoint x="950" y="626" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---26" target="lIhQqo_QO6p77klz7L---34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---26" value="redis获取&lt;br&gt;登录错误次数errCount，不存在则新建（超时60s）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+          <mxGeometry x="890" y="349" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---27" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---28" target="lIhQqo_QO6p77klz7L---22">
+          <mxGeometry x="-0.4634" y="-20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---28" value="比较是否正确" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+          <mxGeometry x="910" y="694" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---29" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---30" target="lIhQqo_QO6p77klz7L---28">
+          <mxGeometry x="0.446" y="-17" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---30" value="&lt;span&gt;redis中获取sms码&lt;br&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+          <mxGeometry x="910" y="584" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---31" value="清空已记录到redis的sms" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+          <mxGeometry x="120" y="911" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---34" target="lIhQqo_QO6p77klz7L---40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---34" value="errCount&amp;gt;=[10]" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+          <mxGeometry x="903.5" y="439" width="93" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---36" value="&lt;span&gt;返回错误&lt;/span&gt;&lt;br&gt;&lt;span&gt;sms已超时或未发送&lt;br&gt;提示发送&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+          <mxGeometry x="1431" y="589" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---37" value="返回验证错误,剩余可错误次数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+          <mxGeometry x="1434" y="699" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---40" value="errCount+1&lt;br&gt;尝试清除缓存中sms&lt;br&gt;返回错误超次数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+          <mxGeometry x="1025.75" y="449" width="129.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---42" value="errCount+1后&lt;br&gt;errCount&amp;gt;=[10]" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+          <mxGeometry x="1137" y="584" width="93" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---43" value="errCount+1后&lt;br&gt;errCount&amp;gt;=[10]" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+          <mxGeometry x="1044" y="689" width="93" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---45" value="no" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---30" target="lIhQqo_QO6p77klz7L---42">
+          <mxGeometry x="-0.7727" y="9" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1033" y="614" as="sourcePoint" />
+            <mxPoint x="1083" y="564" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---46" value="no" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---28" target="lIhQqo_QO6p77klz7L---43">
+          <mxGeometry x="-0.5181" y="14" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1033" y="714" as="sourcePoint" />
+            <mxPoint x="1083" y="664" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---47" value="no" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---42" target="lsDzB1HzglFhwk-VusD1-11">
+          <mxGeometry x="-0.7802" y="14" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1363" y="664" as="sourcePoint" />
+            <mxPoint x="1413" y="614" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---48" value="no" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---43" target="lsDzB1HzglFhwk-VusD1-12">
+          <mxGeometry x="-0.8182" y="9" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1343" y="764" as="sourcePoint" />
+            <mxPoint x="1393" y="714" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---50" value="yes" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---42" target="lIhQqo_QO6p77klz7L---40">
+          <mxGeometry x="-0.8132" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1073" y="659" as="sourcePoint" />
+            <mxPoint x="1123" y="609" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1184" y="479" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---51" value="yes" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---43" target="lIhQqo_QO6p77klz7L---40">
+          <mxGeometry x="-0.8039" y="17" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1083" y="679" as="sourcePoint" />
+            <mxPoint x="1133" y="629" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---54" value="&lt;span&gt;清空sms并提示重发？&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+          <mxGeometry x="1431" y="759" width="126" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="lsDzB1HzglFhwk-VusD1-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---55" target="lIhQqo_QO6p77klz7L---56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---55" value="短信验证码发送接口" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+          <mxGeometry x="500" y="201" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lsDzB1HzglFhwk-VusD1-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---56" target="lIhQqo_QO6p77klz7L---57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---56" value="&lt;span&gt;redis获取&lt;/span&gt;&lt;br&gt;&lt;span&gt;发送次数sendCount，不存在则新建(超时60s)=0&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+          <mxGeometry x="500" y="321" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lsDzB1HzglFhwk-VusD1-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---57" target="lIhQqo_QO6p77klz7L---58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lsDzB1HzglFhwk-VusD1-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="527" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---57" value="sendCount&amp;gt;=[10]" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+          <mxGeometry x="513.5" y="410" width="93" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lIhQqo_QO6p77klz7L---58" value="返回短时间发送次数过多&lt;br&gt;刷新sendCount到60s" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+          <mxGeometry x="670" y="420" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lsDzB1HzglFhwk-VusD1-3" value="&lt;span&gt;验证码发送&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+          <mxGeometry x="500" y="527" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lsDzB1HzglFhwk-VusD1-15" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.015;entryY=0.582;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lsDzB1HzglFhwk-VusD1-11" target="lIhQqo_QO6p77klz7L---36">
+          <mxGeometry x="-0.4354" y="14" relative="1" as="geometry">
+            <mxPoint x="2" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lsDzB1HzglFhwk-VusD1-11" value="&lt;span&gt;errCount==[5]&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+          <mxGeometry x="1321" y="584" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lsDzB1HzglFhwk-VusD1-14" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lsDzB1HzglFhwk-VusD1-12" target="lIhQqo_QO6p77klz7L---37">
+          <mxGeometry x="-0.8407" y="9" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lsDzB1HzglFhwk-VusD1-12" value="&lt;span&gt;errCount==[5]&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+          <mxGeometry x="1241" y="689" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lsDzB1HzglFhwk-VusD1-16" value="返回短时间内错误次数过多，需验证图形验证码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+          <mxGeometry x="1221" y="449" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lsDzB1HzglFhwk-VusD1-17" value="yes" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lsDzB1HzglFhwk-VusD1-12" target="lsDzB1HzglFhwk-VusD1-16">
+          <mxGeometry x="-0.9" y="21" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1210" y="640" as="sourcePoint" />
+            <mxPoint x="1281" y="510" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lsDzB1HzglFhwk-VusD1-18" value="yes" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lsDzB1HzglFhwk-VusD1-11" target="lsDzB1HzglFhwk-VusD1-16">
+          <mxGeometry x="-0.776" y="11" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1340" y="580" as="sourcePoint" />
+            <mxPoint x="1280" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1361" y="479" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lsDzB1HzglFhwk-VusD1-19" value="&lt;span&gt;清空sms并提示重发？&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+          <mxGeometry x="1220" y="433" width="122" height="16" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
