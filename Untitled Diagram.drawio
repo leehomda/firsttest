@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-24T09:05:55.491Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54" etag="meQHu0taZ3Y5hpoq26Qc" version="14.8.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-24T09:09:46.587Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54" etag="sGRm8oJm8SuSJBjdM1zW" version="14.8.0" type="github" pages="4">
   <diagram id="YGMs5_OGyGjqF1UgZ5e0" name="1">
     <mxGraphModel dx="2920" dy="2506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -446,7 +446,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Copy of Copy of 1" id="LGBWkiNRGmc8TNdxKPHA">
-    <mxGraphModel dx="1460" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="920" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="lIhQqo_QO6p77klz7L---0" />
         <mxCell id="lIhQqo_QO6p77klz7L---1" parent="lIhQqo_QO6p77klz7L---0" />
@@ -520,7 +520,7 @@
         <mxCell id="lIhQqo_QO6p77klz7L---22" value="验证完成&lt;br&gt;清空sms码和errCount" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
           <mxGeometry x="890" y="805" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lIhQqo_QO6p77klz7L---23" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---34" target="lIhQqo_QO6p77klz7L---30">
+        <mxCell id="lIhQqo_QO6p77klz7L---23" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---34" target="lIhQqo_QO6p77klz7L---30">
           <mxGeometry x="0.4468" y="-20" relative="1" as="geometry">
             <mxPoint x="950" y="626" as="sourcePoint" />
             <mxPoint as="offset" />
@@ -551,8 +551,10 @@
         <mxCell id="lIhQqo_QO6p77klz7L---31" value="清空已记录到redis的sms？" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
           <mxGeometry x="120" y="911" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lIhQqo_QO6p77klz7L---33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---34" target="lIhQqo_QO6p77klz7L---40">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="lIhQqo_QO6p77klz7L---33" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---34" target="lIhQqo_QO6p77klz7L---40">
+          <mxGeometry x="0.2129" y="19" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="lIhQqo_QO6p77klz7L---34" value="errCount&amp;gt;=[10]" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
           <mxGeometry x="903.5" y="439" width="93" height="80" as="geometry" />
@@ -563,10 +565,10 @@
         <mxCell id="lIhQqo_QO6p77klz7L---37" value="返回验证错误,剩余可错误次数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
           <mxGeometry x="1434" y="699" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lIhQqo_QO6p77klz7L---40" value="errCount+1&lt;br&gt;尝试清除缓存中sms&lt;br&gt;返回错误超次数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+        <mxCell id="lIhQqo_QO6p77klz7L---40" value="尝试清除缓存中sms&lt;br&gt;返回错误超次数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
           <mxGeometry x="1025.75" y="449" width="129.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lIhQqo_QO6p77klz7L---42" value="errCount+1后&lt;br&gt;errCount&amp;gt;=[10]" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+        <mxCell id="lIhQqo_QO6p77klz7L---42" value="&lt;font color=&quot;#ff0000&quot;&gt;errCount+1后&lt;/font&gt;&lt;br&gt;errCount&amp;gt;=[10]" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
           <mxGeometry x="1137" y="584" width="93" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lIhQqo_QO6p77klz7L---43" value="errCount+1后&lt;br&gt;errCount&amp;gt;=[10]" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
