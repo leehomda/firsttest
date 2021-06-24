@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-24T09:13:59.401Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54" etag="QlPSnPUxtAQkxUIWNG2l" version="14.8.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-24T09:26:29.106Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54" etag="DE5onCNy54OIeiDz0vUd" version="14.8.0" type="github" pages="4">
   <diagram id="YGMs5_OGyGjqF1UgZ5e0" name="1">
     <mxGraphModel dx="2920" dy="2506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -548,7 +548,7 @@
         <mxCell id="lIhQqo_QO6p77klz7L---30" value="&lt;span&gt;redis中获取sms码&lt;br&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
           <mxGeometry x="910" y="584" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lIhQqo_QO6p77klz7L---31" value="&lt;i&gt;清空已记录到redis的sms？&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+        <mxCell id="lIhQqo_QO6p77klz7L---31" value="&lt;i&gt;&lt;u&gt;清空已记录到redis的sms？&lt;/u&gt;&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
           <mxGeometry x="120" y="911" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lIhQqo_QO6p77klz7L---33" value="yes&lt;br&gt;errCount+1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---34" target="lIhQqo_QO6p77klz7L---40">
@@ -568,7 +568,7 @@
         <mxCell id="lIhQqo_QO6p77klz7L---40" value="尝试清除缓存中sms&lt;br&gt;返回错误超次数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
           <mxGeometry x="1025.75" y="449" width="129.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lIhQqo_QO6p77klz7L---42" value="&lt;i&gt;&lt;font color=&quot;#ff0000&quot;&gt;errCount+1后&lt;/font&gt;&lt;br&gt;&lt;/i&gt;errCount&amp;gt;=[10]" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+        <mxCell id="lIhQqo_QO6p77klz7L---42" value="&lt;i&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;u&gt;errCount+1后&lt;/u&gt;&lt;/font&gt;&lt;br&gt;&lt;/i&gt;errCount&amp;gt;=[10]" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
           <mxGeometry x="1137" y="584" width="93" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lIhQqo_QO6p77klz7L---43" value="errCount+1后&lt;br&gt;errCount&amp;gt;=[10]" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
@@ -619,7 +619,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lIhQqo_QO6p77klz7L---54" value="&lt;span&gt;&lt;i&gt;清空sms并提示重发？&lt;/i&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+        <mxCell id="lIhQqo_QO6p77klz7L---54" value="&lt;span&gt;&lt;i&gt;&lt;u&gt;清空sms并提示重发？&lt;/u&gt;&lt;/i&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
           <mxGeometry x="1431" y="759" width="126" height="16" as="geometry" />
         </mxCell>
         <mxCell id="lsDzB1HzglFhwk-VusD1-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lIhQqo_QO6p77klz7L---1" source="lIhQqo_QO6p77klz7L---55" target="lIhQqo_QO6p77klz7L---56">
@@ -687,7 +687,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lsDzB1HzglFhwk-VusD1-19" value="&lt;span&gt;&lt;i&gt;清空sms并提示重发？&lt;/i&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
+        <mxCell id="lsDzB1HzglFhwk-VusD1-19" value="&lt;span&gt;&lt;i&gt;&lt;u&gt;清空sms并提示重发？&lt;/u&gt;&lt;/i&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="lIhQqo_QO6p77klz7L---1">
           <mxGeometry x="1220" y="433" width="122" height="16" as="geometry" />
         </mxCell>
       </root>
