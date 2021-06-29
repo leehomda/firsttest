@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-29T06:41:13.770Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54" etag="ngLSUauJYQeRcd_tcOSR" version="14.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-29T08:11:59.733Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54" etag="hH1_YinWqVbzphBOklOG" version="14.8.1" type="github">
   <diagram id="YW4IahLpEKhzY00MQ2ns" name="Page-1">
-    <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="920" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,7 +17,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eclmrbbeuG5zvKfWPDYI-6" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="eclmrbbeuG5zvKfWPDYI-6" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="334" y="720" width="226" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eclmrbbeuG5zvKfWPDYI-7" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eclmrbbeuG5zvKfWPDYI-1" target="eclmrbbeuG5zvKfWPDYI-6">
@@ -36,6 +36,74 @@
         </mxCell>
         <mxCell id="eclmrbbeuG5zvKfWPDYI-13" value="op_branch_no			操作分支机构		Y	&lt;br&gt;op_entrust_way			委托方式			Y	&lt;br&gt;op_station	&amp;nbsp; &amp;nbsp; 		站点地址			Y	&lt;br&gt;branch_no	&amp;nbsp; &amp;nbsp; 		分支机构			Y	&lt;br&gt;client_id	&amp;nbsp; &amp;nbsp; 		客户编号			N	&lt;br&gt;fund_account			资产账户			Y	&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;password	&amp;nbsp; &amp;nbsp; 		密码				Y	&lt;/font&gt;&lt;br&gt;password_type			密码类别			N	2&#39;,交易密码&lt;br&gt;user_token	&amp;nbsp; &amp;nbsp; 		用户口令			N	空格,使用普通密码检验&lt;br&gt;prod_account			产品账号			N	&lt;br&gt;prod_code				产品代码			Y	&lt;br&gt;prodta_no				产品TA编号			N	&lt;br&gt;trans_account			交易账号			N	&lt;br&gt;balance					发生金额			Y	&lt;br&gt;pay_cycle_unit			扣款周期单位		Y	0:月 1:周 2:日&lt;br&gt;pay_cycle_rate			扣款周期频率		Y	1&lt;br&gt;start_date				开始日期			N	当天日期&lt;br&gt;end_date				到期日期			N	ration_type=&#39;0&#39;时必须&lt;br&gt;en_fund_date			扣款允许日			N	若扣款周期为周或双周,只有1-5有效；当扣款周期为&#39;2&#39;按日扣款时，扣款允许日为非必填，其他情况为必填&lt;br&gt;ration_type				定投期满类型		N	&lt;br&gt;max_ration_balance		最大定投金额		N	ration_type为1时必须&lt;br&gt;max_ration_times		最大定投次数		N	ration_type为2时必须&lt;br&gt;ration_invest_reason	定投目的			N	空格&lt;br&gt;pay_kind				支付方式			N	&#39;0&#39;:保证金;&#39;1&#39;:三方支付;&#39;3&#39;：线下支付;（系统只支持保证金支付时，此字段为非必传；否则该字段为必传）&lt;br&gt;bank_no					银行代码			N	对接三方支付系统时必传&lt;br&gt;pay_account				支付账户			N	对接三方支付系统时必传&lt;br&gt;prodchannel_type		产品渠道类型		N	&lt;br&gt;discount				折扣比例			N	若以周边送入值为准，那需要必填，并且满足数值大于0，小于等于1，4位小数&lt;br&gt;risk_sub_id				风险揭示书协议号	N	&lt;br&gt;remark					备注				N	&lt;br&gt;touch_flag				触发标志			N	&lt;br&gt;incometaxdefer_flag		个税递延标志		N	 &#39;9&#39;和空表示普通代码登记；&#39;1&#39;表示税延基金资金参与代码登记；" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="360" y="50" width="730" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="eclmrbbeuG5zvKfWPDYI-14" value="&lt;pre style=&quot;background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: rgb(255 , 198 , 109)&quot;&gt;调用createFiaSignTask&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: rgb(255 , 198 , 109)&quot;&gt;延迟提交&lt;/span&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="350" y="790" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eclmrbbeuG5zvKfWPDYI-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eclmrbbeuG5zvKfWPDYI-17" target="eclmrbbeuG5zvKfWPDYI-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eclmrbbeuG5zvKfWPDYI-17" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;fixedInvestNewV2&lt;/span&gt;&#xa;&#xa;" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="540" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eclmrbbeuG5zvKfWPDYI-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eclmrbbeuG5zvKfWPDYI-18" target="eclmrbbeuG5zvKfWPDYI-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eclmrbbeuG5zvKfWPDYI-18" value="由产品号或TA号获取TA收定投时间" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eclmrbbeuG5zvKfWPDYI-33" value="大于定投开始时间&lt;br&gt;，小于定投结束时间" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eclmrbbeuG5zvKfWPDYI-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eclmrbbeuG5zvKfWPDYI-20" value="当前时间与定投时间比较" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="890" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eclmrbbeuG5zvKfWPDYI-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eclmrbbeuG5zvKfWPDYI-26" target="eclmrbbeuG5zvKfWPDYI-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eclmrbbeuG5zvKfWPDYI-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eclmrbbeuG5zvKfWPDYI-26" target="eclmrbbeuG5zvKfWPDYI-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eclmrbbeuG5zvKfWPDYI-26" value="当前日期是否可定投" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="760" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eclmrbbeuG5zvKfWPDYI-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eclmrbbeuG5zvKfWPDYI-27" target="eclmrbbeuG5zvKfWPDYI-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eclmrbbeuG5zvKfWPDYI-27" value="获取下个TA可定投日期" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eclmrbbeuG5zvKfWPDYI-30" value="&lt;span&gt;创建定投任务，&lt;/span&gt;&lt;br&gt;&lt;span&gt;包含下个定投日期，存入数据库&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eclmrbbeuG5zvKfWPDYI-34" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eclmrbbeuG5zvKfWPDYI-20" target="eclmrbbeuG5zvKfWPDYI-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="970" y="1020" as="sourcePoint" />
+            <mxPoint x="1020" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eclmrbbeuG5zvKfWPDYI-37" value="大于定投结束时间" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eclmrbbeuG5zvKfWPDYI-34">
+          <mxGeometry x="0.1267" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eclmrbbeuG5zvKfWPDYI-36" value="小于定投开始时间" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eclmrbbeuG5zvKfWPDYI-20">
+          <mxGeometry x="-0.6154" y="-20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1200" y="1000" as="sourcePoint" />
+            <mxPoint x="910" y="1060" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="910" y="930" />
+            </Array>
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eclmrbbeuG5zvKfWPDYI-42" value="&lt;span&gt;下发337650请求&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eclmrbbeuG5zvKfWPDYI-43" value="创建定投任务，&lt;br&gt;包含本定投日期，&lt;br&gt;存入数据库" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1060" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
