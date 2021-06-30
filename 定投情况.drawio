@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-06-30T03:12:00.260Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54" etag="3TJWDHAwhiPOfoOYVOBa" version="14.8.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-30T05:36:56.128Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54" etag="Xt8paF04prjcHK8hCenx" version="14.8.1" type="github" pages="2">
   <diagram id="YW4IahLpEKhzY00MQ2ns" name="Page-1">
-    <mxGraphModel dx="-45" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="290" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="eclmrbbeuG5zvKfWPDYI-12" value="&lt;div&gt;req：{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;fund_account&quot;: &quot;19277098&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;branch_no&quot;: 19,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;op_station&quot;: &quot;FM-3;MPN:17766427105;IMEI:&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;balance&quot;: &quot;12&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;prod_code&quot;: &quot;519068&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;start_date&quot;: &quot;20210829&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;end_date&quot;: &quot;20220630&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;pay_cycle_unit&quot;: &quot;0&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;en_fund_date&quot;: 4,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;trade_code&quot;: &quot;5df15f62-de08-45c1-b19d-793bd23991f4&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;op_entrust_way&quot;: &quot;g&quot;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="850" y="260" width="316" height="190" as="geometry" />
+          <mxGeometry x="1300" y="100" width="316" height="190" as="geometry" />
         </mxCell>
         <mxCell id="eclmrbbeuG5zvKfWPDYI-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eclmrbbeuG5zvKfWPDYI-17" target="eclmrbbeuG5zvKfWPDYI-18">
           <mxGeometry relative="1" as="geometry" />
@@ -120,7 +120,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eclmrbbeuG5zvKfWPDYI-72" value="&lt;span&gt;表字段&lt;br&gt;trade_date&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;交易日期&lt;br&gt;op_branch_no&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;操作分支机构&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span&gt;op_entrust_way&amp;nbsp; &amp;nbsp; &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;委托方式&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span&gt;op_station&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;站点地址&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span&gt;branch_no&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;分支机构&amp;nbsp;&lt;br&gt;&lt;/span&gt;fund_account &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;资产账户&amp;nbsp;&lt;br&gt;prod_code &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;产品代码&lt;br&gt;ta_code&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;ta代码&amp;nbsp;&lt;br&gt;balance &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;发生金额&amp;nbsp;&lt;br&gt;pay_cycle_unit &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;扣款周期单位&amp;nbsp; 0:月 1:周 2:日&lt;br&gt;pay_cycle_rate &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;扣款周期频率&amp;nbsp;&lt;br&gt;en_fund_date &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;扣款允许日&lt;br&gt;&lt;span&gt;status&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;执行状态&amp;nbsp; 0:未执行 1:执行成功&amp;nbsp; 2:执行失败&lt;br&gt;error_info&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;错误信息&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="850" y="10" width="350" height="220" as="geometry" />
+          <mxGeometry x="870" y="100" width="350" height="220" as="geometry" />
         </mxCell>
         <mxCell id="GvrwKwZerKRcQ9YbQg6c-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GvrwKwZerKRcQ9YbQg6c-3" target="GvrwKwZerKRcQ9YbQg6c-4">
           <mxGeometry relative="1" as="geometry" />
@@ -168,38 +168,38 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GvrwKwZerKRcQ9YbQg6c-17" value="单任务执行" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="2100" y="370" width="120" height="80" as="geometry" />
+          <mxGeometry x="2110" y="374" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GvrwKwZerKRcQ9YbQg6c-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GvrwKwZerKRcQ9YbQg6c-18" target="GvrwKwZerKRcQ9YbQg6c-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GvrwKwZerKRcQ9YbQg6c-18" value="由taskid从task表中获取任务信息" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="2100" y="483" width="120" height="60" as="geometry" />
+          <mxGeometry x="2110" y="487" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GvrwKwZerKRcQ9YbQg6c-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GvrwKwZerKRcQ9YbQg6c-20" target="GvrwKwZerKRcQ9YbQg6c-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GvrwKwZerKRcQ9YbQg6c-20" value="任务参数下发337650" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="2100" y="582.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="2110" y="586.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GvrwKwZerKRcQ9YbQg6c-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GvrwKwZerKRcQ9YbQg6c-21">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2270" y="723" as="targetPoint" />
+            <mxPoint x="2280" y="727" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GvrwKwZerKRcQ9YbQg6c-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GvrwKwZerKRcQ9YbQg6c-21">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2160" y="810" as="targetPoint" />
+            <mxPoint x="2170" y="814" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GvrwKwZerKRcQ9YbQg6c-21" value="任务下发成功" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="2120" y="683" width="80" height="80" as="geometry" />
+          <mxGeometry x="2130" y="687" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GvrwKwZerKRcQ9YbQg6c-32" value="&lt;span&gt;更改任务状态为1，按taskid更新task表&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="2100" y="810" width="120" height="60" as="geometry" />
+          <mxGeometry x="2110" y="814" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GvrwKwZerKRcQ9YbQg6c-33" value="&lt;span&gt;修改状态为2，&lt;/span&gt;&lt;br&gt;&lt;span&gt;存入失败信息&lt;/span&gt;&lt;br&gt;&lt;span&gt;更新数据库中&lt;/span&gt;&lt;br&gt;&lt;span&gt;taskid&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="2270" y="693" width="120" height="60" as="geometry" />
+          <mxGeometry x="2280" y="697" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GvrwKwZerKRcQ9YbQg6c-34" value="下发成功" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="1000" y="934" width="80" height="80" as="geometry" />
