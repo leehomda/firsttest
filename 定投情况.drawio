@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-30T05:36:56.128Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54" etag="Xt8paF04prjcHK8hCenx" version="14.8.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-30T08:26:36.214Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54" etag="aHoowcsyFa9jP5RoHtty" version="14.8.1" type="github" pages="2">
   <diagram id="YW4IahLpEKhzY00MQ2ns" name="Page-1">
-    <mxGraphModel dx="290" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-45" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,116 +11,114 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eclmrbbeuG5zvKfWPDYI-17" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;fixedInvestNewV2&lt;/span&gt;&#xa;&#xa;" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="980" y="474" width="120" height="80" as="geometry" />
+          <mxGeometry x="1120" y="389.5" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eclmrbbeuG5zvKfWPDYI-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eclmrbbeuG5zvKfWPDYI-18" target="eclmrbbeuG5zvKfWPDYI-20">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1040" y="561.5" as="targetPoint" />
+            <mxPoint x="1180" y="477" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eclmrbbeuG5zvKfWPDYI-18" value="由产品代码与TA编号获取TA申赎时间（time_kind=6）" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="980" y="594" width="120" height="60" as="geometry" />
+          <mxGeometry x="1120" y="509.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eclmrbbeuG5zvKfWPDYI-33" value="大于申赎开始时间&lt;br&gt;，小于申赎结束时间" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eclmrbbeuG5zvKfWPDYI-20">
+        <mxCell id="eclmrbbeuG5zvKfWPDYI-33" value="大于申赎开始时间&lt;br&gt;且小于申赎结束时间" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eclmrbbeuG5zvKfWPDYI-20">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1040" y="851.5" as="targetPoint" />
+            <mxPoint x="1180" y="767" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eclmrbbeuG5zvKfWPDYI-20" value="系统时间与申赎时间比较" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="681.5" width="80" height="80" as="geometry" />
+          <mxGeometry x="1140" y="597" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eclmrbbeuG5zvKfWPDYI-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="eclmrbbeuG5zvKfWPDYI-30">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1217" y="785.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eclmrbbeuG5zvKfWPDYI-36" value="小于申赎开始时间或&lt;br&gt;大于申赎结束时间" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eclmrbbeuG5zvKfWPDYI-20" target="eclmrbbeuG5zvKfWPDYI-43">
-          <mxGeometry x="-0.3048" y="-15" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1160" y="911.5" as="sourcePoint" />
-            <mxPoint x="870" y="971.5" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="900" y="721.25" />
-            </Array>
+        <mxCell id="eclmrbbeuG5zvKfWPDYI-36" value="小于申赎开始时间或&lt;br&gt;大于申赎结束时间" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eclmrbbeuG5zvKfWPDYI-20" target="GvrwKwZerKRcQ9YbQg6c-50">
+          <mxGeometry x="0.2" y="-37" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1300" y="827" as="sourcePoint" />
+            <mxPoint x="1010" y="887" as="targetPoint" />
+            <Array as="points" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eclmrbbeuG5zvKfWPDYI-43" value="创建&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;申赎&lt;/span&gt;任务信息&lt;br&gt;设置状态为0&lt;br&gt;存入task表" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="840" y="851.5" width="120" height="60" as="geometry" />
+        <mxCell id="eclmrbbeuG5zvKfWPDYI-43" value="创建&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;定投&lt;/span&gt;任务信息&lt;br&gt;设置状态为0&lt;br&gt;存入task表" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="965" y="707" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eclmrbbeuG5zvKfWPDYI-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eclmrbbeuG5zvKfWPDYI-46" target="eclmrbbeuG5zvKfWPDYI-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eclmrbbeuG5zvKfWPDYI-46" value="执行定投task" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1385" y="480" width="120" height="80" as="geometry" />
+          <mxGeometry x="1464" y="360" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eclmrbbeuG5zvKfWPDYI-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eclmrbbeuG5zvKfWPDYI-47" target="eclmrbbeuG5zvKfWPDYI-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eclmrbbeuG5zvKfWPDYI-47" value="获取task表中状态为0的任务" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1385" y="592.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1464" y="472.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eclmrbbeuG5zvKfWPDYI-58" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eclmrbbeuG5zvKfWPDYI-51" target="eclmrbbeuG5zvKfWPDYI-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eclmrbbeuG5zvKfWPDYI-51" value="遍历完任务" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1405" y="692.5" width="80" height="80" as="geometry" />
+          <mxGeometry x="1484" y="572.5" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eclmrbbeuG5zvKfWPDYI-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eclmrbbeuG5zvKfWPDYI-52" target="eclmrbbeuG5zvKfWPDYI-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eclmrbbeuG5zvKfWPDYI-52" value="任务参数下发337650" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1385" y="802.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1464" y="682.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eclmrbbeuG5zvKfWPDYI-61" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eclmrbbeuG5zvKfWPDYI-53" target="eclmrbbeuG5zvKfWPDYI-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eclmrbbeuG5zvKfWPDYI-53" value="定投任务下发成功" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1405" y="882.5" width="80" height="80" as="geometry" />
+          <mxGeometry x="1484" y="762.5" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eclmrbbeuG5zvKfWPDYI-54" value="修改状态为2，&lt;br&gt;存入失败信息&lt;br&gt;更新数据库中&lt;br&gt;taskid" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1385" y="1000" width="120" height="60" as="geometry" />
+          <mxGeometry x="1464" y="880" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eclmrbbeuG5zvKfWPDYI-62" value="修改状态为1，按taskid更新task表" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1245" y="892.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1324" y="772.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eclmrbbeuG5zvKfWPDYI-63" value="yes" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry y="-23" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1405" y="923" as="sourcePoint" />
-            <mxPoint x="1365" y="923" as="targetPoint" />
+            <mxPoint x="1484" y="803" as="sourcePoint" />
+            <mxPoint x="1444" y="803" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eclmrbbeuG5zvKfWPDYI-64" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eclmrbbeuG5zvKfWPDYI-54" target="eclmrbbeuG5zvKfWPDYI-51">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1255" y="1000" as="sourcePoint" />
-            <mxPoint x="1305" y="950" as="targetPoint" />
+            <mxPoint x="1334" y="880" as="sourcePoint" />
+            <mxPoint x="1384" y="830" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1230" y="1030" />
-              <mxPoint x="1230" y="890" />
-              <mxPoint x="1230" y="733" />
+              <mxPoint x="1309" y="910" />
+              <mxPoint x="1309" y="770" />
+              <mxPoint x="1309" y="613" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="eclmrbbeuG5zvKfWPDYI-67" value="结束" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1525" y="703" width="50" height="60" as="geometry" />
+          <mxGeometry x="1604" y="583" width="50" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eclmrbbeuG5zvKfWPDYI-68" value="yes" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eclmrbbeuG5zvKfWPDYI-51" target="eclmrbbeuG5zvKfWPDYI-67">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1545" y="830" as="sourcePoint" />
-            <mxPoint x="1595" y="780" as="targetPoint" />
+            <mxPoint x="1624" y="710" as="sourcePoint" />
+            <mxPoint x="1674" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eclmrbbeuG5zvKfWPDYI-70" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eclmrbbeuG5zvKfWPDYI-62" target="eclmrbbeuG5zvKfWPDYI-51">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1305" y="802.5" as="sourcePoint" />
-            <mxPoint x="1185" y="850" as="targetPoint" />
+            <mxPoint x="1384" y="682.5" as="sourcePoint" />
+            <mxPoint x="1264" y="730" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1305" y="733" />
+              <mxPoint x="1384" y="613" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="eclmrbbeuG5zvKfWPDYI-72" value="&lt;span&gt;表字段&lt;br&gt;trade_date&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;交易日期&lt;br&gt;op_branch_no&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;操作分支机构&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span&gt;op_entrust_way&amp;nbsp; &amp;nbsp; &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;委托方式&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span&gt;op_station&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;站点地址&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span&gt;branch_no&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;分支机构&amp;nbsp;&lt;br&gt;&lt;/span&gt;fund_account &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;资产账户&amp;nbsp;&lt;br&gt;prod_code &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;产品代码&lt;br&gt;ta_code&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;ta代码&amp;nbsp;&lt;br&gt;balance &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;发生金额&amp;nbsp;&lt;br&gt;pay_cycle_unit &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;扣款周期单位&amp;nbsp; 0:月 1:周 2:日&lt;br&gt;pay_cycle_rate &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;扣款周期频率&amp;nbsp;&lt;br&gt;en_fund_date &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;扣款允许日&lt;br&gt;&lt;span&gt;status&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;执行状态&amp;nbsp; 0:未执行 1:执行成功&amp;nbsp; 2:执行失败&lt;br&gt;error_info&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;错误信息&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="870" y="100" width="350" height="220" as="geometry" />
+        <mxCell id="eclmrbbeuG5zvKfWPDYI-72" value="&lt;span&gt;表字段&lt;br&gt;request_time&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;请求时间戳&lt;br&gt;request_update_time 请求更新时间戳&lt;br&gt;op_branch_no&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;操作分支机构&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span&gt;op_entrust_way&amp;nbsp; &amp;nbsp; &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;委托方式&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span&gt;op_station&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;站点地址&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span&gt;branch_no&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;分支机构&amp;nbsp;&lt;br&gt;&lt;/span&gt;fund_account &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;资产账户&amp;nbsp;&lt;br&gt;prod_code &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;产品代码&lt;br&gt;ta_code&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;ta代码&amp;nbsp;&lt;br&gt;balance &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;发生金额&amp;nbsp;&lt;br&gt;pay_cycle_unit &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;扣款周期单位&amp;nbsp; 0:月 1:周 2:日&lt;br&gt;pay_cycle_rate &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;扣款周期频率&amp;nbsp;&lt;br&gt;en_fund_date &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;扣款允许日&lt;br&gt;&lt;span&gt;status&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;执行状态&amp;nbsp; 0:未执行 1:执行成功&amp;nbsp; 2:执行失败&lt;br&gt;error_info&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;错误信息&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="870" y="100" width="350" height="240" as="geometry" />
         </mxCell>
         <mxCell id="GvrwKwZerKRcQ9YbQg6c-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GvrwKwZerKRcQ9YbQg6c-3" target="GvrwKwZerKRcQ9YbQg6c-4">
           <mxGeometry relative="1" as="geometry" />
@@ -201,14 +199,70 @@
         <mxCell id="GvrwKwZerKRcQ9YbQg6c-33" value="&lt;span&gt;修改状态为2，&lt;/span&gt;&lt;br&gt;&lt;span&gt;存入失败信息&lt;/span&gt;&lt;br&gt;&lt;span&gt;更新数据库中&lt;/span&gt;&lt;br&gt;&lt;span&gt;taskid&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="2280" y="697" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="GvrwKwZerKRcQ9YbQg6c-43" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GvrwKwZerKRcQ9YbQg6c-34" target="GvrwKwZerKRcQ9YbQg6c-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GvrwKwZerKRcQ9YbQg6c-44" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GvrwKwZerKRcQ9YbQg6c-34" target="GvrwKwZerKRcQ9YbQg6c-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="889.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="GvrwKwZerKRcQ9YbQg6c-34" value="下发成功" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="934" width="80" height="80" as="geometry" />
+          <mxGeometry x="1140" y="849.5" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GvrwKwZerKRcQ9YbQg6c-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GvrwKwZerKRcQ9YbQg6c-35" target="GvrwKwZerKRcQ9YbQg6c-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GvrwKwZerKRcQ9YbQg6c-35" value="&lt;span&gt;下发337650请求&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="980" y="851.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1120" y="767" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GvrwKwZerKRcQ9YbQg6c-39" value="返回成功" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="955.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GvrwKwZerKRcQ9YbQg6c-51" value="无" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GvrwKwZerKRcQ9YbQg6c-50" target="eclmrbbeuG5zvKfWPDYI-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GvrwKwZerKRcQ9YbQg6c-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GvrwKwZerKRcQ9YbQg6c-50" target="GvrwKwZerKRcQ9YbQg6c-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GvrwKwZerKRcQ9YbQg6c-50" value="&lt;span&gt;由资产账号、产品代码及TA编号查找task表中是否有记录&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="960" y="597" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GvrwKwZerKRcQ9YbQg6c-52" value="更新表中&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;定投&lt;/span&gt;任务信息及update_time" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="850" y="610.5" width="90" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="GvrwKwZerKRcQ9YbQg6c-54" value="创建&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;定投&lt;/span&gt;任务信息&lt;br&gt;设置状态为0&lt;br&gt;存入task表" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="985" y="1065.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GvrwKwZerKRcQ9YbQg6c-56" value="更新表中&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;定投&lt;/span&gt;任务信息及update_time" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="870" y="969" width="90" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="GvrwKwZerKRcQ9YbQg6c-62" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GvrwKwZerKRcQ9YbQg6c-57" target="GvrwKwZerKRcQ9YbQg6c-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GvrwKwZerKRcQ9YbQg6c-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GvrwKwZerKRcQ9YbQg6c-57" target="GvrwKwZerKRcQ9YbQg6c-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GvrwKwZerKRcQ9YbQg6c-57" value="失败原因为不在时间段内" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1005" y="849.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GvrwKwZerKRcQ9YbQg6c-59" value="更新表中&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;定投&lt;/span&gt;任务信息及update_time" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="870" y="969" width="90" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="GvrwKwZerKRcQ9YbQg6c-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GvrwKwZerKRcQ9YbQg6c-60" target="GvrwKwZerKRcQ9YbQg6c-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GvrwKwZerKRcQ9YbQg6c-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GvrwKwZerKRcQ9YbQg6c-60" target="GvrwKwZerKRcQ9YbQg6c-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GvrwKwZerKRcQ9YbQg6c-60" value="&lt;span&gt;由资产账号、产品代码及TA编号查找task表中是否有记录&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="980" y="955.5" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GvrwKwZerKRcQ9YbQg6c-61" value="更新表中&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;定投&lt;/span&gt;任务信息及update_time" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="870" y="969" width="90" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="GvrwKwZerKRcQ9YbQg6c-65" value="返回失败" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="870" y="860" width="95" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
