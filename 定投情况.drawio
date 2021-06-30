@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-30T02:51:20.017Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54" etag="48mjuOCrt9MtYGFbRgaQ" version="14.8.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-30T03:12:00.260Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54" etag="3TJWDHAwhiPOfoOYVOBa" version="14.8.1" type="github" pages="2">
   <diagram id="YW4IahLpEKhzY00MQ2ns" name="Page-1">
-    <mxGraphModel dx="476" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-45" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,44 +11,41 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eclmrbbeuG5zvKfWPDYI-17" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;fixedInvestNewV2&lt;/span&gt;&#xa;&#xa;" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="980" y="580" width="120" height="80" as="geometry" />
+          <mxGeometry x="980" y="474" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eclmrbbeuG5zvKfWPDYI-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eclmrbbeuG5zvKfWPDYI-18" target="eclmrbbeuG5zvKfWPDYI-20">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1040" y="667.5" as="targetPoint" />
+            <mxPoint x="1040" y="561.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eclmrbbeuG5zvKfWPDYI-18" value="由产品代码与TA编号获取TA收申赎时间（time_kind=6）" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="980" y="700" width="120" height="60" as="geometry" />
+        <mxCell id="eclmrbbeuG5zvKfWPDYI-18" value="由产品代码与TA编号获取TA申赎时间（time_kind=6）" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="980" y="594" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eclmrbbeuG5zvKfWPDYI-33" value="大于申赎开始时间&lt;br&gt;，小于申赎结束时间" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eclmrbbeuG5zvKfWPDYI-20" target="eclmrbbeuG5zvKfWPDYI-42">
+        <mxCell id="eclmrbbeuG5zvKfWPDYI-33" value="大于申赎开始时间&lt;br&gt;，小于申赎结束时间" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eclmrbbeuG5zvKfWPDYI-20">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1040" y="1077.5" as="targetPoint" />
+            <mxPoint x="1040" y="851.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eclmrbbeuG5zvKfWPDYI-20" value="系统时间与申赎时间比较" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="787.5" width="80" height="80" as="geometry" />
+          <mxGeometry x="1000" y="681.5" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eclmrbbeuG5zvKfWPDYI-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="eclmrbbeuG5zvKfWPDYI-30">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1217" y="785.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eclmrbbeuG5zvKfWPDYI-36" value="小于申赎开始时间" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eclmrbbeuG5zvKfWPDYI-20" target="eclmrbbeuG5zvKfWPDYI-43">
+        <mxCell id="eclmrbbeuG5zvKfWPDYI-36" value="小于申赎开始时间或&lt;br&gt;大于申赎结束时间" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eclmrbbeuG5zvKfWPDYI-20" target="eclmrbbeuG5zvKfWPDYI-43">
           <mxGeometry x="-0.3048" y="-15" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1160" y="1017.5" as="sourcePoint" />
-            <mxPoint x="870" y="1077.5" as="targetPoint" />
+            <mxPoint x="1160" y="911.5" as="sourcePoint" />
+            <mxPoint x="870" y="971.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="900" y="827.25" />
+              <mxPoint x="900" y="721.25" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eclmrbbeuG5zvKfWPDYI-42" value="&lt;span&gt;下发337650请求&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="980" y="957.5" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="eclmrbbeuG5zvKfWPDYI-43" value="创建&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;申赎&lt;/span&gt;任务信息&lt;br&gt;设置状态为0&lt;br&gt;存入task表" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="840" y="957.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="840" y="851.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eclmrbbeuG5zvKfWPDYI-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eclmrbbeuG5zvKfWPDYI-46" target="eclmrbbeuG5zvKfWPDYI-47">
           <mxGeometry relative="1" as="geometry" />
@@ -203,6 +200,15 @@
         </mxCell>
         <mxCell id="GvrwKwZerKRcQ9YbQg6c-33" value="&lt;span&gt;修改状态为2，&lt;/span&gt;&lt;br&gt;&lt;span&gt;存入失败信息&lt;/span&gt;&lt;br&gt;&lt;span&gt;更新数据库中&lt;/span&gt;&lt;br&gt;&lt;span&gt;taskid&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="2270" y="693" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GvrwKwZerKRcQ9YbQg6c-34" value="下发成功" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="934" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GvrwKwZerKRcQ9YbQg6c-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GvrwKwZerKRcQ9YbQg6c-35" target="GvrwKwZerKRcQ9YbQg6c-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GvrwKwZerKRcQ9YbQg6c-35" value="&lt;span&gt;下发337650请求&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="980" y="851.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
