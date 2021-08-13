@@ -1,1 +1,239 @@
-<mxfile host="app.diagrams.net" modified="2021-08-12T09:59:49.953Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 Edg/92.0.902.67" version="14.9.5" etag="p7U7HdIM9zJEwcN9FtUQ" type="github"><diagram id="iZSxUYs6nvVQSuJic5YJ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-13T05:56:39.153Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 Edg/92.0.902.67" etag="nT_4S6uZIPjDiOPEuuo8" version="14.9.5" type="github">
+  <diagram id="iZSxUYs6nvVQSuJic5YJ" name="Page-1">
+    <mxGraphModel dx="1117" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sy7BUHmaNgnKE1Wm8GWt-1" target="sy7BUHmaNgnKE1Wm8GWt-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-1" value="签约收单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="442" y="71" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-75" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sy7BUHmaNgnKE1Wm8GWt-8" target="sy7BUHmaNgnKE1Wm8GWt-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-8" value="查策略信息表判断委托金额是否超过" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="183" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-74" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sy7BUHmaNgnKE1Wm8GWt-11" target="sy7BUHmaNgnKE1Wm8GWt-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-11" value="&lt;font color=&quot;#ff0000&quot;&gt;912104&lt;/font&gt;查看账户信息，判断是否主账户" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="303" width="125" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-73" value="未在签约中或已签约" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sy7BUHmaNgnKE1Wm8GWt-12" target="sy7BUHmaNgnKE1Wm8GWt-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-12" value="查签约信息表判断目标策略签约状态" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="423" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-72" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sy7BUHmaNgnKE1Wm8GWt-15" target="sy7BUHmaNgnKE1Wm8GWt-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-15" value="判断组合状态是否在调仓" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="538" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-71" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sy7BUHmaNgnKE1Wm8GWt-16" target="sy7BUHmaNgnKE1Wm8GWt-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-16" value="&lt;div&gt;组合信息查询&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;/getCombinfoItemsEx&lt;/font&gt;t&lt;/div&gt;&lt;div&gt;判断委托金额是否满足&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="663" width="165" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-70" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sy7BUHmaNgnKE1Wm8GWt-17" target="sy7BUHmaNgnKE1Wm8GWt-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-17" value="&lt;font color=&quot;#ff0000&quot;&gt;948068&lt;/font&gt;&lt;br&gt;判断风险等级是否达标" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="447.5" y="783" width="115" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sy7BUHmaNgnKE1Wm8GWt-18" target="sy7BUHmaNgnKE1Wm8GWt-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-18" value="限制机构签约" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="913" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-19" value="kcy记录表&lt;br&gt;判断做过KCY且合格" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="1018" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-66" value="资金&amp;gt;委托金额" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sy7BUHmaNgnKE1Wm8GWt-20" target="sy7BUHmaNgnKE1Wm8GWt-21">
+          <mxGeometry x="-1" y="45" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-20" value="&lt;font color=&quot;#ff0000&quot;&gt;911013&lt;/font&gt;查用户资金信息与委托金额比较" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="183" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sy7BUHmaNgnKE1Wm8GWt-21" target="sy7BUHmaNgnKE1Wm8GWt-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-21" value="赋予e权限" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="685" y="303" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sy7BUHmaNgnKE1Wm8GWt-22" target="sy7BUHmaNgnKE1Wm8GWt-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-22" value="&lt;font color=&quot;#ff0000&quot;&gt;912002&lt;/font&gt;用户资料获取&lt;br&gt;赋值联系方式" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="685" y="413" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sy7BUHmaNgnKE1Wm8GWt-23" target="sy7BUHmaNgnKE1Wm8GWt-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-23" value="&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;ias.postTransAcctOpenExt&lt;/font&gt;&lt;/div&gt;&lt;div&gt;基金交易账户预约开户&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="685" y="533" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sy7BUHmaNgnKE1Wm8GWt-24" target="sy7BUHmaNgnKE1Wm8GWt-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-24" value="调用&lt;font color=&quot;#ff0000&quot;&gt;新意接口&lt;/font&gt;&lt;br&gt;基金协议签署" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="685" y="673" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-61" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sy7BUHmaNgnKE1Wm8GWt-25" target="sy7BUHmaNgnKE1Wm8GWt-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-25" value="签约成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="793" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-26" value="调用一柜通，进行协议签署签约归档" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="685" y="913" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-58" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sy7BUHmaNgnKE1Wm8GWt-27" target="sy7BUHmaNgnKE1Wm8GWt-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-27" value="是否要签约同时定投" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="975" y="193" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-28" value="柜台在清算时间" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="975" y="313" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sy7BUHmaNgnKE1Wm8GWt-32" target="sy7BUHmaNgnKE1Wm8GWt-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-32" value="是否交易日" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="193" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-40" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="922" y="443" width="200" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-29" value="postAgreementSignOut，实现投顾签约提交-资金冻结" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sy7BUHmaNgnKE1Wm8GWt-40">
+          <mxGeometry x="40" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-30" value="更新策略签约状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sy7BUHmaNgnKE1Wm8GWt-40">
+          <mxGeometry x="40" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-31" value="通知CRM建立投顾关系" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sy7BUHmaNgnKE1Wm8GWt-40">
+          <mxGeometry x="40" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-39" value="签约提交及回访" style="swimlane;" vertex="1" parent="sy7BUHmaNgnKE1Wm8GWt-40">
+          <mxGeometry width="200" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-43" value="当前时间判断" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="303" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-44" value="收单，T日6点执行" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1165" y="443" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-45" value="收单，T+1日6点执行" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1315" y="303" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-46" value="直接调用签约及回访" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1315" y="443" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-47" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sy7BUHmaNgnKE1Wm8GWt-43" target="sy7BUHmaNgnKE1Wm8GWt-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1265" y="423" as="sourcePoint" />
+            <mxPoint x="1315" y="373" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-48" value="时间&amp;gt;17点" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sy7BUHmaNgnKE1Wm8GWt-47">
+          <mxGeometry x="-0.4" relative="1" as="geometry">
+            <mxPoint x="5" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-49" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sy7BUHmaNgnKE1Wm8GWt-43" target="sy7BUHmaNgnKE1Wm8GWt-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1265" y="443" as="sourcePoint" />
+            <mxPoint x="1315" y="393" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-50" value="时间&amp;lt;3点" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sy7BUHmaNgnKE1Wm8GWt-49">
+          <mxGeometry x="0.4333" y="-1" relative="1" as="geometry">
+            <mxPoint x="-29" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-51" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="sy7BUHmaNgnKE1Wm8GWt-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1225" y="383" as="sourcePoint" />
+            <mxPoint x="1315" y="413" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1225" y="393" />
+              <mxPoint x="1375" y="393" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-52" value="时间在3-17点间" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sy7BUHmaNgnKE1Wm8GWt-51">
+          <mxGeometry x="0.0544" y="-3" relative="1" as="geometry">
+            <mxPoint x="49" y="27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-53" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sy7BUHmaNgnKE1Wm8GWt-32" target="sy7BUHmaNgnKE1Wm8GWt-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1305" y="303" as="sourcePoint" />
+            <mxPoint x="1355" y="253" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1375" y="233" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-54" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sy7BUHmaNgnKE1Wm8GWt-53">
+          <mxGeometry x="-0.2414" relative="1" as="geometry">
+            <mxPoint x="-58" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-56" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="273" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-57" value="no" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.472;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sy7BUHmaNgnKE1Wm8GWt-28" target="sy7BUHmaNgnKE1Wm8GWt-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1075" y="423" as="sourcePoint" />
+            <mxPoint x="1125" y="373" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1016" y="413" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-59" value="no" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sy7BUHmaNgnKE1Wm8GWt-27" target="sy7BUHmaNgnKE1Wm8GWt-32">
+          <mxGeometry x="-0.8462" y="10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1105" y="283" as="sourcePoint" />
+            <mxPoint x="1155" y="233" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-60" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sy7BUHmaNgnKE1Wm8GWt-26" target="sy7BUHmaNgnKE1Wm8GWt-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="875" y="923" as="sourcePoint" />
+            <mxPoint x="925" y="873" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="895" y="943" />
+              <mxPoint x="895" y="233" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-67" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sy7BUHmaNgnKE1Wm8GWt-19" target="sy7BUHmaNgnKE1Wm8GWt-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="1063" as="sourcePoint" />
+            <mxPoint x="650" y="1013" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="1058" />
+              <mxPoint x="630" y="223" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sy7BUHmaNgnKE1Wm8GWt-68" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sy7BUHmaNgnKE1Wm8GWt-67">
+          <mxGeometry x="-0.904" relative="1" as="geometry">
+            <mxPoint x="-33" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
